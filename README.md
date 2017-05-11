@@ -1,28 +1,22 @@
 # Actions on Google Silly Name Maker Sample using API.AI
 
-This is a super simple Action, built using API.AI, to generate a silly name
-based on your lucky number and favorite color. This can be built entirely in
-the API.AI console, using just a couple intents.
+This is a super simple Assistant app, built using API.AI, to generate a silly
+name based on your lucky number and favorite color. This can be built entirely
+in the API.AI console, using just a couple intents.
 
 ## Setup Instructions
 
-### Pre-requisites
- 1. API.AI account: [https://api.ai](https://api.ai)
- 2. Google Cloud project: [https://console.cloud.google.com/project](https://console.cloud.google.com/project)
-
-See the developer guide and release notes at [https://developers.google.com/actions/](https://developers.google.com/actions/) for more details.
-
 ### Steps
- 1. Create a new agent in API.AI [https://api.ai](https://api.ai).
- 1. Click on the project gear icon to see the project settings.
- 1. Select "Export and Import".
- 1. Select "Restore from zip". Follow the directions to restore.
- 1. Select the SillyNameMaker.zip file in this repo.
- 1. Make sure all domains are turned off.
- 1. Enable Actions on Google in the Integrations.
- 1. In the make_name intent, check "End Conversation" for Actions on Google.
- 1. Provide an invocation name for the action.
- 1. Authorize and preview the action in the [web simulator](https://developers.google.com/actions/tools/web-simulator).
+1. Use the [Actions on Google Console](https://console.actions.google.com) to add a new project with a name of your choosing.
+1. Click "Use API.AI" and then "Create Actions on API.AI".
+1. Click "Save" to save the project.
+1. Click on the gear icon to see the project settings.
+1. Select "Export and Import".
+1. Select "Restore from zip". Follow the directions to restore from the SillyNameMaker.zip in this repo.
+1. In the make_name intent, check “End Conversation” for Actions on Google, then Save.
+1. In API.AI, open the Integrations page, open the Settings menu for Actions on Google, then click Test.
+1. Click View to open the Actions on Google simulator.
+1. Type "Talk to my test app" in the simulator, or say "OK Google, talk to my test app" to any Actions on Google enabled device signed into your developer account.
 
 For more detailed information on deployment, see the [documentation](https://developers.google.com/actions/samples/).
 
