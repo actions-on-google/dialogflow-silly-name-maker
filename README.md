@@ -1,4 +1,4 @@
-# Actions on Google Silly Name Maker Sample using API.AI
+# Actions on Google: Silly Name Maker Sample using API.AI
 
 This is a super simple Assistant app, built using API.AI, to generate a silly
 name based on your lucky number and favorite color. This can be built entirely
